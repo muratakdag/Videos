@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Features
+
+This is essentially a YouTube browser application in code and approach and design.It's going to be somewhat similar to the on Splash app that I put together just a little bit ago.At the very top, a user is going to enter in some search term, such as in this case, I put in buildings for this example.They're then going to the enter key, which is going to trigger a search request rather than the Splash API. We're going to make a request over to the YouTube public free API with the YouTube API.We're going to do a search for a list of videos matching this search term right here.
+
+Once we get a list of videos back from this YouTube API, we're going to show them on the right handside of the screen. A user can then click on one of these videos and we will feature it right in the center so the user will see the video appear right here.They can click on a play button and play the video and we'll also show them a title, any description of the video at the bottom as well.So as you see here, some similar elements to what we were doing.We're still going to have a search bar at the top.We're going to make a request to an outside API.We're going to render a list of items.And then from there, we're going to learn a couple new small things around, clicking on an item and then making sure that we show a video on the screen. So it is similar, just one or two little additions to this application.
+
+Like I said, this is mostly an application so that you can just solidify some of the fundamental knowledge around react.
+
 ## Available Scripts
 
 In the project directory, you can run:
